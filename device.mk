@@ -20,6 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 SONY_ROOT = device/sony/shinano/rootdir
 PRODUCT_COPY_FILES += \
     $(SONY_ROOT)/init.recovery.shinano.rc:root/init.recovery.shinano.rc \
+    $(SONY_ROOT)/init.device.rc:root/init.device.rc \
     $(SONY_ROOT)/init.shinano.rc:root/init.shinano.rc \
     $(SONY_ROOT)/init.shinano.usb.rc:root/init.shinano.usb.rc \
     $(SONY_ROOT)/init.shinano.pwr.rc:root/init.shinano.pwr.rc \

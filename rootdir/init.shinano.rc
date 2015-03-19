@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import init.device.rc
 import init.shinano.usb.rc
 import init.shinano.pwr.rc
 
