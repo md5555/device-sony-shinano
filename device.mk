@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+$(call inherit-product, device/sony/msm8974_common/common.mk)
+
 SOMC_PLATFORM := shinano
 
 DEVICE_PACKAGE_OVERLAYS += \
@@ -100,6 +102,7 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessingdescriptors \
     libqcompostprocbundle
 
+<<<<<<< HEAD
 #GFX
 PRODUCT_PACKAGES += \
     gralloc.msm8974 \
@@ -110,6 +113,8 @@ PRODUCT_PACKAGES += \
     libqdutils \
     libqdMetaData
 
+=======
+>>>>>>> 2b0049ca791bb00f9bace258dffcf5d0886f341e
 PRODUCT_PACKAGES += \
     libion
 
@@ -151,6 +156,7 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf
 
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     keystore.msm8974
 
 PRODUCT_PACKAGES += \
@@ -162,9 +168,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     timekeep \
     TimeKeep \
+=======
+>>>>>>> 2b0049ca791bb00f9bace258dffcf5d0886f341e
     thermanager \
     addrsetup
 
+<<<<<<< HEAD
 PRODUCT_PACKAGES += \
     rmt_storage
 
@@ -192,6 +201,8 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 # APN list
 PRODUCT_COPY_FILES += device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
+=======
+>>>>>>> 2b0049ca791bb00f9bace258dffcf5d0886f341e
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true
 
